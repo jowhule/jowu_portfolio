@@ -1,0 +1,77 @@
+@import 'colour-palette.css';
+
+.contacts-wrapper {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts-display {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-email {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: 'SF Mono Regular';
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  position: absolute;
+  bottom: 130px;
+  right: 50px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  font-size: 23px;
+  color: var(--text-blue);
+  position: absolute;
+  bottom: 130px;
+  left: 50px;
+
+}
+
+.contact-links>* {
+  margin: 15px 0px;
+}
+
+
+.right-bar {
+  background-color: var(--text-blue);
+  width: 2px;
+  height: 100px;
+  right: 60px;
+  bottom: 0;
+  position: absolute;
+}
+
+.left-bar {
+  background-color: var(--text-blue);
+  width: 2px;
+  height: 100px;
+  left: 60px;
+  bottom: 0;
+  position: absolute;
+}
+
+.fa-brands {
+  color: var(--text-blue) !important;
+  text-decoration: none !important;
+  transition: all .2s ease-in-out;
+}
+
+.fa-brands:hover {
+  color: var(--bright-blue) !important;
+  transform: translateY(-5px);
+}
+
+@media (max-width:850px) {
+  .contacts-wrapper {
+    display: none;
+  }
+}

@@ -1,0 +1,36 @@
+@import 'colour-palette.css';
+
+body {
+  background-color: var(--bg-black);
+  color: var(--text-blue);
+  font-family: montserrat;
+  font-size: 17px;
+  line-height: 150%;
+  overflow-x: hidden;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  margin: 5px;
+}
+
+::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(129, 132, 133);
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(82, 84, 85);
+}
