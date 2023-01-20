@@ -50,8 +50,7 @@
 
 .header-wrapper p {
   max-width: 550px;
-  display: flex;
-  flex-direction: row;
+  display: inline;
 }
 
 @media (max-width:850px) {

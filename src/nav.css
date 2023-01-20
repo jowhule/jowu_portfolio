@@ -1,0 +1,35 @@
+.nav-wrapper {
+  height: 100px;
+  display: flex;
+  top: 0;
+  padding: 0px 50px;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.fa-house-blank {
+  color: var(--bright-blue);
+  font-size: 40px !important;
+}
+
+.menu-container {
+  display: inline;
+  font-size: 15px;
+}
+
+.menu-item {
+  padding: 10px;
+}
+
+.menu-item::after {
+  margin-right: 4px;
+  font-family: 'SF Mono Regular';
+  color: var(--bright-blue);
+}
