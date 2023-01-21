@@ -1,0 +1,22 @@
+.about-section {
+  max-width: 900px;
+  margin: 0px 22vw;
+  padding: 100px 0px;
+  height: fit-content;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-text {
+  width: 500px;
+}
+
+.about-content img {
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
+}

@@ -15,17 +15,15 @@ var prevScrollpos = window.pageYOffset;
 
 window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
-
+  // change navbar height on scroll
   if (currentScrollPos != 0 && !nav.classList.contains('nav-shadow')) {
     nav.classList.add('nav-shadow');
     nav.style.height = "70px";
-
     nav.style.transition = "top 0.3s, height 0.25s ease-out"
   } else if (currentScrollPos == 0 && nav.classList.contains('nav-shadow')) {
     nav.style.height = "100px";
     nav.style.transition = "top 0.3s, height 0.25s ease-in"
     nav.classList.remove('nav-shadow');
-
   }
 
   if (prevScrollpos > currentScrollPos) {

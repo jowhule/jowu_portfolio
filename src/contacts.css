@@ -60,7 +60,7 @@
 }
 
 @media (max-width:850px) {
-  .contacts-wrapper {
+  .contacts-display {
     display: none;
   }
 }
