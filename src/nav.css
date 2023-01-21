@@ -1,35 +1,63 @@
 .nav-wrapper {
   height: 100px;
+  width: 100vw;
   display: flex;
   top: 0;
-  padding: 0px 50px;
   justify-content: center;
   align-items: center;
   z-index: 10;
+  font-family: 'SF Mono Light';
+  background-color: #1c1d1e70;
+  transition: top 0.3s;
+  position: fixed;
+  backdrop-filter: blur(15px);
 }
 
 .nav-container {
   display: flex;
   justify-content: space-between;
+  padding: 0px 50px;
   width: 100%;
 }
 
-.fa-house-blank {
+.nav-container a {
+  color: var(--text-blue);
+  text-decoration: none;
+}
+
+.nav-container a:hover {
   color: var(--bright-blue);
-  font-size: 40px !important;
+}
+
+.menu-item {
+  padding: 15px;
+}
+
+.menu-number {
+  color: var(--bright-blue);
+  font-size: 12px;
+  padding-right: 4px;
+}
+
+#home-button {
+  padding-top: 10px;
 }
 
 .menu-container {
   display: inline;
-  font-size: 15px;
+  font-size: 14px;
 }
 
-.menu-item {
-  padding: 10px;
-}
 
-.menu-item::after {
+.menu-item::before {
   margin-right: 4px;
-  font-family: 'SF Mono Regular';
-  color: var(--bright-blue);
+}
+
+.resume {
+  margin-left: 20px;
+}
+
+.nav-shadow {
+  box-shadow: 0px 10px 20px #0e0f0f6c;
+  transition: box-shadow 0.25s ease-in, box-shadow 0.25s ease-out;
 }

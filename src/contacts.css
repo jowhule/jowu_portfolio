@@ -11,7 +11,7 @@
   font-family: 'SF Mono Regular';
   font-size: 15px;
   letter-spacing: 1.5px;
-  position: absolute;
+  position: fixed;
   bottom: 130px;
   right: 50px;
 }
@@ -21,7 +21,7 @@
   flex-direction: column;
   font-size: 23px;
   color: var(--text-blue);
-  position: absolute;
+  position: fixed;
   bottom: 130px;
   left: 50px;
 }
@@ -30,14 +30,13 @@
   margin: 15px 0px;
 }
 
-
 .right-bar {
   background-color: var(--text-blue);
   width: 2px;
   height: 100px;
   right: 60px;
   bottom: 0;
-  position: absolute;
+  position: fixed;
 }
 
 .left-bar {
@@ -46,7 +45,7 @@
   height: 100px;
   left: 60px;
   bottom: 0;
-  position: absolute;
+  position: fixed;
 }
 
 .fa-brands {

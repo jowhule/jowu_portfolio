@@ -9,6 +9,26 @@ body {
   overflow-x: hidden;
 }
 
+button {
+  border: 1px solid var(--bright-blue);
+  border-radius: 5px;
+  color: var(--bright-blue);
+  background-color: transparent;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'SF Mono Regular';
+}
+
+button:hover {
+  background-color: #00bfff25;
+}
+
 .vertical-center {
   margin: 0;
   position: absolute;
