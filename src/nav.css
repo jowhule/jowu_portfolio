@@ -68,15 +68,15 @@
   position: relative;
   overflow: hidden;
   padding-top: 23px;
-  background: linear-gradient(to right, var(--bright-blue), var(--bright-blue) 50%, white 50%);
+  background: linear-gradient(to right, white 50%, var(--bright-blue), var(--bright-blue) 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
-  background-position: 100%;
+  background-position: 0%;
   transition: background-position 750ms ease;
 }
 
 .nav-colour-slide:hover {
-  background-position: 0 100%;
+  background-position: 100% 0;
 }
