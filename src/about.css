@@ -116,7 +116,7 @@
 
 .skill-progress {
   border-radius: 2px;
-  background-color: var(--text-blue);
+  background-color: var(--text-other);
   height: 6px;
   margin-left: 30px;
   align-self: center;
