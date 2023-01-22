@@ -17,14 +17,12 @@
 <body>
   <div class="nav-wrapper" id="navbar">
     <div class="nav-container">
-      <a href="#home" class="fa-solid fa-house fa-xl" id="move_in_page" style="margin-top:23px;"></a>
-      <div class="menu-container">
+      <a href="#home" class="nav-colour-slide fa-solid fa-house fa-xl" id="move_in_page"></a>
+      <div class=" menu-container">
         <a href="#about" class="menu-item" id="move_in_page"><span class="menu-number">01.</span>About</a>
         <a href="" class="menu-item" id="move_in_page"><span class="menu-number">02.</span>Works</a>
         <a href="" class="menu-item" id="move_in_page"><span class="menu-number">03.</span>Contact</a>
         <a href="assets/Resume.pdf" target="_blank"><button class="button resume">Resume</button></a>
-
-
       </div>
     </div>
   </div>
@@ -48,8 +46,14 @@
   <div class="header-section" id="home">
     <div class="header-wrapper vertical-center">
       <h2>Hello, my name is</h2>
-      <h1>Jo Wu.</h1>
-      <h3>Student, coder, designer.</h3>
+      <h1>Jo Wu</h1>
+      <h3>A part-time
+        <div class="text-scroller">
+          <span>
+            student.<br /> coder.<br /> designer.
+          </span>
+        </div>
+      </h3>
       <p>I'm a full time <span style="color:var(--bright-blue)">3rd Year Computer Science student</span> with a passion
         for all things code and design related. I look to challenge myself and learn along the way. </p>
       <div class="quote-wrapper">
@@ -61,38 +65,72 @@
         </div>
       </div>
     </div>
-
   </div>
 
-
-  <div class="about-section">
-
+  <div class="about-section" id="about">
     <div class="headings">
       <span class="headings-number">01.</span>
       <span class="headings-title">About Me</span>
       <div class="headings-line"></div>
-
     </div>
 
-    <div class="about-content" id="about">
+    <div class="about-content">
       <div class="about-text">
-        Hello! My name is Jo, I consider myself a designer and a coder. Because of computer games I was always intrigued
-        by the engineering of said programs and applications. Although I thoroughly enjoyed art and deisgn since I was a
-        toddler, I chose to pursue Computer Science.<br><br>
-        Throughout my courses I have realised that art and
-        coding aren't contrasts (as I had thought); both require me to start with a base and build up to a rewarding
-        product I design. <br><br>
-
-
-        I am currently planning to make
-        a Chrome Extension and a Pokedex search using PokeAPI!
+        Hello! My name is Jo, I consider myself a designer and a coder. Although I thoroughly enjoyed art and deisgn
+        since I was a toddler, I chose to pursue Computer Science. Because of computer games I was always intrigued
+        by the engineering of said programs and applications.<br><br>
+        Throughout my courses I have realised that art and coding are not contrasts (as I had thought); both require me
+        to <span style="color:var(--bright-blue)">start with a base and build up to a rewarding product </span>I design.
+        As such, I currently have the privilege to work for a small business as a <span
+          style="color:var(--bright-blue)">casual website designer</span>
+        while studying and working on personal projects.<br><br>At the moment, I am planning to make a <span
+          style="color:var(--bright-blue)">Chrome Extension</span> and an
+        aesthetic and smooth Pokedex search using
+        <span style="color:var(--bright-blue)">PokeAPI</span>!
 
       </div>
-      <img src="assets/temp.jpg" />
+      <div class="about-right">
+        <img src="assets/temp.jpg" id="about-img" />
+        <div class="about-img-cover"></div>
+        <div class="about-box"></div>
+        <div class="skills-title">Skills: <span style="font-size: 10px;">(most proficient ones)</span></div>
+
+        <div class="skills-container">
+          <div class="skill-bullet"></div>
+          <div class="skill-name">Python</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 160px"></div>
+          </div>
+
+          <div class="skill-bullet"></div>
+          <div class="skill-name">HTML & CSS</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 140px"></div>
+          </div>
+
+          <div class="skill-bullet"></div>
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 100px"></div>
+          </div>
+
+        </div>
+      </div>
+
 
 
     </div>
   </div>
+
+  <div class="works-section">
+    <div class="headings">
+      <span class="headings-number">02.</span>
+      <span class="headings-title">Things I have worked on</span>
+      <div class="headings-line"></div>
+    </div>
+  </div>
+
+
 </body>
 <script src="script.js"></script>
 <script src="https://kit.fontawesome.com/51a53d6ea0.js" crossorigin="anonymous"></script>

@@ -20,12 +20,13 @@
   width: 100%;
 }
 
-.nav-container a {
+.menu-container a {
   color: var(--text-blue);
   text-decoration: none;
+
 }
 
-.nav-container a:hover {
+.menu-container a:hover {
   color: var(--bright-blue);
 }
 
@@ -40,7 +41,7 @@
 }
 
 #home-button {
-  padding-top: 10px;
+  margin-top: 23px;
 }
 
 .menu-container {
@@ -60,4 +61,22 @@
 .nav-shadow {
   box-shadow: 0px 10px 20px #0e0f0f6c;
   transition: box-shadow 0.25s ease-in, box-shadow 0.25s ease-out;
+}
+
+.nav-colour-slide {
+  color: white;
+  position: relative;
+  overflow: hidden;
+  padding-top: 23px;
+  background: linear-gradient(to right, var(--bright-blue), var(--bright-blue) 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 750ms ease;
+}
+
+.nav-colour-slide:hover {
+  background-position: 0 100%;
 }

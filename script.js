@@ -33,3 +33,23 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
 }
+
+// hover profile image
+const about_box = document.querySelector('.about-box');
+const about_img = document.querySelector('#about-img');
+const img_cover = document.querySelector('.about-img-cover');
+
+about_box.addEventListener('mouseover', () => {
+  img_cover.style.opacity = '0';
+  img_cover.style.height = '290px';
+  img_cover.style.width = '290px';
+  img_cover.style.top = '10px';
+
+});
+
+about_box.addEventListener('mouseout', () => {
+  img_cover.style.opacity = '0.5';
+  img_cover.style.height = '280px';
+  img_cover.style.width = '280px';
+  img_cover.style.top = '20px';
+});

@@ -7,6 +7,7 @@ body {
   font-size: 17px;
   line-height: 150%;
   overflow-x: hidden;
+  padding: 0;
 }
 
 button {
@@ -65,14 +66,14 @@ button:hover {
 }
 
 .headings-title {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
 }
 
 .headings-number {
   font-family: 'SF Mono Regular';
   color: var(--bright-blue);
-  font-size: 22px;
+  font-size: 20px;
   padding-top: 3px;
   margin-right: 15px;
 }

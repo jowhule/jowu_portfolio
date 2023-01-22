@@ -1,0 +1,8 @@
+.works-section {
+  max-width: 1000px;
+  padding: 100px 0px;
+  height: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
