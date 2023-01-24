@@ -14,6 +14,14 @@
   position: fixed;
   bottom: 130px;
   right: 48px;
+  color: var(--text-blue);
+}
+
+.contact-email:hover {
+  color: var(--bright-blue) !important;
+  transform: translateY(-5px);
+  transition: all .2s ease-in-out;
+  text-decoration: none;
 }
 
 .contact-links {

@@ -1,0 +1,23 @@
+.contact-section {
+  max-width: 600px;
+  padding: 100px 0px;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.contact-title {
+  font-family: 'SF Mono Regular';
+  color: var(--bright-blue);
+  font-size: 16px;
+}
+
+.contact-title h1 {
+  font-size: 30px;
+}
+
+.contact-button {
+  margin-top: 50px;
+  padding: 20px 28px;
+  font-family: 'SF Mono Semibold';
+}
