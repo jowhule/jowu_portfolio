@@ -56,7 +56,7 @@ about_box.addEventListener('mouseout', () => {
 
 // page loader
 
-function myFunction() {
+function render() {
   setTimeout(showPage, 5000);
   setTimeout(loader_text_small, 4000);
   setTimeout(load_page, 5010);
@@ -65,12 +65,12 @@ function myFunction() {
 
 function showPage() {
   document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
+  document.getElementById("page").style.display = "block";
 }
 
 var load_text = document.getElementById('load-text');
 function loader_text_small() {
-  load_text.setAttribute('style', "font-size: 16px; font-family: 'SF Mono Semibold'");
+  load_text.setAttribute('style', "font-size: 16px;");
   load_text.style.opacity = '0';
   load_text.style.width = '200px';
   load_text.style.transition = 'all 1s ease'
@@ -80,7 +80,7 @@ function loader_text_small() {
 function load_page() {
   var load = document.querySelector('.quote');
   load.style.opacity = '1';
-  load.style.transition = 'all 1s ease-out';
+  load.style.transition = 'all 1s ease-in';
 
   onload_header('.home', '.5s');
   onload_header('#about-nav', '1s');
@@ -113,7 +113,7 @@ function onload_contacts() {
 
 }
 
-// load in text
+// console typing animation
 consoleText(['"Love what you do;\nDo what you love."'], 'text');
 
 function consoleText(words, id) {
