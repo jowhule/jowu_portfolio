@@ -68,6 +68,25 @@
   transform: translateY(-5px);
 }
 
+@media (max-width: 1080px) {
+  .right-bar {
+    right: 30px;
+  }
+
+  .contact-links {
+    left: 22px;
+  }
+
+  .left-bar {
+    left: 30px;
+  }
+
+  .contact-email {
+    right: 20px;
+  }
+
+}
+
 @media (max-width:850px) {
   .contacts-display {
     display: none;

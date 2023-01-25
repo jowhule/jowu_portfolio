@@ -158,8 +158,6 @@ function reveal() {
     var elementVisible = 150;
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("revealed");
-    } else {
-      reveals[i].classList.remove("revealed");
     }
   }
 }

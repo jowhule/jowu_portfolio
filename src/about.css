@@ -1,5 +1,6 @@
 .about-section {
   max-width: 900px;
+  width: 75vw;
   padding: 100px 0px;
   height: fit-content;
   margin: 0 auto;
@@ -11,7 +12,7 @@
 }
 
 .about-text {
-  width: 500px;
+  max-width: 500px;
 }
 
 .about-right {
@@ -112,6 +113,7 @@
   align-self: center;
   margin-left: 10px;
   position: relative;
+  transition: width 0.7s ease;
 }
 
 .skill-progress {
@@ -122,6 +124,7 @@
   align-self: center;
   position: absolute;
   margin-left: 0px;
+  transition: width 0.7s ease;
 }
 
 .skills-container {
@@ -131,4 +134,78 @@
   grid-template-columns: 10px 90px 200px;
   gap: 10px;
   align-items: center;
+}
+
+@media (max-width: 1160px) {
+
+  .about-img-cover {
+    width: 240px !important;
+    height: 240px !important;
+  }
+
+  .about-content img {
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+  }
+
+  .skill-bar {
+    width: 160px;
+  }
+
+  .about-box {
+    width: 260px;
+    height: 260px;
+  }
+
+}
+
+@media (max-width: 1080px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  #about-heading {
+    padding-left: 8vw;
+  }
+
+  .about-text {
+    width: 75vw;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width:850px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  #about-heading {
+    width: 500px !important;
+  }
+
+  .about-img-cover {
+    width: 280px !important;
+    height: 280px !important;
+  }
+
+  .about-content img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+  }
+
+  .skill-bar {
+    width: 200px;
+  }
+
+  .about-box {
+    width: 300px;
+    height: 300px;
+  }
+
 }
