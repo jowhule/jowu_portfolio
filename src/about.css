@@ -167,12 +167,9 @@
     justify-items: center;
   }
 
-  #about-heading {
-    padding-left: 8vw;
-  }
-
   .about-text {
-    width: 75vw;
+    width: 100%;
+    max-width: auto;
     padding-bottom: 40px;
   }
 }
@@ -184,9 +181,7 @@
     justify-items: center;
   }
 
-  #about-heading {
-    width: 500px !important;
-  }
+
 
   .about-img-cover {
     width: 280px !important;
