@@ -1,13 +1,13 @@
-// smooth anchor links
-document.querySelectorAll('.menu-item').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault();
+// // smooth anchor links
+// document.querySelectorAll('.menu-item').forEach(anchor => {
+//   anchor.addEventListener('click', function (e) {
+//     e.preventDefault();
 
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
-});
+//     document.querySelector(this.getAttribute('href')).scrollIntoView({
+//       behavior: 'smooth'
+//     });
+//   });
+// });
 
 // hide navbar on scroll down
 const nav = document.getElementById("navbar");
