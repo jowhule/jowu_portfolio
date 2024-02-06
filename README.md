@@ -1,7 +1,7 @@
 ﻿# Portfolio
 Here you can see some an overview of me.
 
-Access page [here]([https://jowail.github.io/jowu_portfolio/](https://portfoliowebsite-xi-blue.vercel.app/)).
+Access page [here](https://portfoliowebsite-xi-blue.vercel.app/).
 
 
 
