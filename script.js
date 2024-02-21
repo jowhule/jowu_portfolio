@@ -57,9 +57,11 @@ about_box.addEventListener('mouseout', () => {
 // page loader
 
 function render() {
-  setTimeout(showPage, 5000);
-  setTimeout(loader_text_small, 4000);
-  setTimeout(load_page, 5010);
+  // setTimeout(showPage, 5000);
+  // setTimeout(loader_text_small, 4000);
+  // setTimeout(load_page, 5010);
+
+  setTimeout(load_page, 0);
 
 }
 
