@@ -60,13 +60,13 @@ function render() {
   // setTimeout(showPage, 5000);
   // setTimeout(loader_text_small, 4000);
   // setTimeout(load_page, 5010);
-  setTimeout(showPage, 0);
+  showPage();
   setTimeout(load_page, 10);
 
 }
 
 function showPage() {
-  // document.getElementById("loader").style.display = "none";
+  document.getElementById("loader").style.display = "none";
   document.getElementById("page").style.display = "block";
 }
 
